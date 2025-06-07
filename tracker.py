@@ -140,10 +140,10 @@ ud_first = np.sqrt(mean_sqrd_pstv_first)
 ud_second = np.sqrt(mean_sqrd_pstv_second)
 print (f"First Open at Entry: {offer_open_price_entry_first}")
 print (f"Second Open at Entry: {offer_open_price_entry_second}")
-print(f"Firste's Downward Deviation: {dd_first:.4f}%")
-print(f"Microsoft's Downward Deviation: {dd_second:.4f}%")
-print(f"Firste's Upward Deviation: {ud_first:.4f}%")
-print(f"Microsoft's Upward Deviation: {ud_second:.4f}%")
+print(f"First's Downward Deviation: {dd_first:.4f}%")
+print(f"Second's Downward Deviation: {dd_second:.4f}%")
+print(f"First's Upward Deviation: {ud_first:.4f}%")
+print(f"Second's Upward Deviation: {ud_second:.4f}%")
 
 
 # Determine total return from entry to end
@@ -271,4 +271,4 @@ plt.title(f'Profit Amount on Investment of {investment_amount}')
 plt.ylabel('Profit Amount ($)')
 plt.grid(axis='y')
 plt.show()
-
+exit(0)
