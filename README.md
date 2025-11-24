@@ -114,7 +114,3 @@ This tool is **free to use, modify, and learn from**. You can:
 > **Attribution appreciated but not required.** Just learn and have fun.
 
 **Happy coding & investing! 🚀**
-
-```
-Let me know if you’d like help turning this into a Jupyter Notebook version or adding more features like Sharpe ratio, CSV export, or a GUI.
-```
